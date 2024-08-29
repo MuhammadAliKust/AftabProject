@@ -1,4 +1,5 @@
 import 'package:aftab_project/grid_view_demo.dart';
+import 'package:aftab_project/tabbar_view.dart';
 import 'package:flutter/material.dart';
 
 import 'listview_demo.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: GridViewDemo(),
+      home: TabbarViewDemo(),
     );
   }
 }
