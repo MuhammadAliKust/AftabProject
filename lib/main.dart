@@ -1,4 +1,5 @@
 import 'package:aftab_project/bottom_bar_view.dart';
+import 'package:aftab_project/dialog_box.dart';
 import 'package:aftab_project/grid_view_demo.dart';
 import 'package:aftab_project/image_view.dart';
 import 'package:aftab_project/tabbar_view.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ImageViewDemo(),
+      home: DialogBoxView(),
     );
   }
 }
